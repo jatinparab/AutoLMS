@@ -7,7 +7,7 @@
 * Login to your account, and go to the homepage.
 * Once all the links are loaded click on the extension icon in the top right corner, and click on "automate!" button.
 
-<img src="http://g.recordit.co/O1NNo7mSy0.gif" />
+<div align="center"><img src="http://g.recordit.co/O1NNo7mSy0.gif" /></div>
 
 * Wait for all the tabs to open and close.
 
