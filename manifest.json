@@ -1,0 +1,22 @@
+{
+    "name": "AutoLMS",
+    "description" : "Complete your LMS visits automatically within seconds",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "index.html"
+
+    },
+    "permissions":["storage","declarativeContent","tabs","http://mydy.dypatil.edu/*"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+    {
+      "matches": ["http://mydy.dypatil.edu/*"],
+      "js": ["jq.js","content_script.js"]
+    }
+  ]
+  }
